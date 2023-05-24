@@ -22,12 +22,12 @@ class Weather {
 
     isStormy(weatherNow) {
 
-        let storm = false;
-        if (weatherNow === `stormy`) {
-            storm = true;
-        }
+        // let storm = false;
+        // if (weatherNow === `stormy`) {
+        //     storm = true;
+        // }
 
-        return storm;
+        return weatherNow === `stormy`;
     }
 }
 
