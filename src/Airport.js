@@ -35,8 +35,8 @@ class Airport {
 
   checkPlanesAtAirport = plane => {
     let planeFound = false;
-    for (let i = 0; i < this.planesAtAirport.length; i++) {
-      if (this.planesAtAirport[i].planeId == plane.planeId) {
+    for (let planeSearched of this.planesAtAirport) {
+      if (planeSearched.planeId == plane.planeId) {
         planeFound = true;
       }
     }
