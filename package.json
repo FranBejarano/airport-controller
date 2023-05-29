@@ -2,9 +2,10 @@
   "name": "airport-challenge",
   "version": "1.0.0",
   "description": "A TDD Challenge for Digital Futures",
-  "main": "index.js",
+  "main": "specRunner.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "start": "nodemon specRunner"
   },
   "author": "dearshrewdwit",
   "license": "ISC",
